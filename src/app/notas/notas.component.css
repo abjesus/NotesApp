@@ -1,4 +1,47 @@
+/* BOTÃO ADICIONAR NOTA */
+
+.botao-nova-nota {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #eeee;
+
+    border-radius: var(--border-radius-componentes);
+}
+
+.botao-nova-nota i {
+    margin: 1rem;
+}
+
+.botao-nova-nota p {
+    margin: 0px;
+    font-size: 1.1em;
+}
+
+/* NOTAS */
+
 .painel-notas {
-    border: 2px solid yellow;
-    background-color: yellow;
+    flex: 1;
+    margin-top: 2rem;
+    overflow-y: auto;
+}
+
+.painel-nota {
+    padding: 5px;
+    border-radius: var(--border-radius-componentes);
+    background-color: #eeee;
+    margin-bottom: 2rem;
+    opacity: .6;
+}
+
+.painel-nota p {
+    margin: 5px;
+}
+
+.painel-nota:first-child {
+    opacity: 1;
+}
+
+.painel-nota p:nth-child(2) {
+    font-weight: bold;
 }

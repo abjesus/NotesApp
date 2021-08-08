@@ -17,6 +17,7 @@
 
 .painel-usuario-info p {
     margin: 0px;
+    font-weight: bold;
 }
 
 /* PESQUISA */
@@ -44,18 +45,25 @@ input[type=search] {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
+    opacity: .6;
+    color: grey;
 
     border-radius: var(--border-radius-componentes);
 }
 
 .painel-colecao:hover {
     background-color: white;
-    opacity: .5;
+    color: black;
 }
 
 .painel-colecao:first-child {
+    color: black;
     background-color: white;
     opacity: 1;
+}
+
+.painel-colecao p {
+    font-weight: bold;
 }
 
 /* BOTÃO ADICIONAR COLECAO */
@@ -71,4 +79,9 @@ input[type=search] {
 
 .botao-novacolecao i {
     margin: 1rem;
+}
+
+.botao-novacolecao p {
+    margin: 0px;
+    font-size: 1.1em;
 }
