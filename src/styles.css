@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "NunitoSans";
+    src: 
+        url("assets/fonts/NunitoSans-Regular.ttf"),
+        url("assets/fonts/NunitoSans-Light.ttf"),
+        url("assets/fonts/NunitoSans-Italic.ttf"),
+        url("assets/fonts/NunitoSans-Bold.ttf");
+}
+
+body {
+    margin: 10px;
+    background-color: #c0bec0;
+    font-family: "NunitoSans";
+}
+
+.container-painel {
+  --background-componentes: white;
+  --border-radius-container: 10px;
+  --border-radius-componentes: 5px;
+
+  position: fixed;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  border-radius: var(--border-radius-container);
+  background-color: #eeeeee;
+}
+
+i ~ p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

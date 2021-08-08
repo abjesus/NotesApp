@@ -1,0 +1,74 @@
+/* USUÁRIO */
+
+.painel-usuario {
+    display: flex;
+    align-items: center;
+
+    border-radius: var(--border-radius-componentes);
+    background-color: white;
+}
+
+.painel-usuario img {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+.painel-usuario-info p {
+    margin: 0px;
+}
+
+/* PESQUISA */
+
+input[type=search] {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+
+    border-radius: var(--border-radius-componentes);
+    border: 1px solid #eeee;
+}
+
+/* COLECOES */
+
+.painel-colecoes {
+    flex: 1;
+    margin-bottom: 1rem;
+    overflow-y: auto;;
+}
+
+.painel-colecao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+    border-radius: var(--border-radius-componentes);
+}
+
+.painel-colecao:hover {
+    background-color: white;
+    opacity: .5;
+}
+
+.painel-colecao:first-child {
+    background-color: white;
+    opacity: 1;
+}
+
+/* BOTÃO ADICIONAR COLECAO */
+
+.botao-novacolecao {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+
+    border-radius: var(--border-radius-componentes);
+}
+
+.botao-novacolecao i {
+    margin: 1rem;
+}

@@ -1,0 +1,24 @@
+<div class="painel-usuario">
+    <img src="https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg" />
+    <div class="painel-usuario-info">
+        <p>Abel Jesus</p>
+        <a href="#">Configuração</a>
+    </div>
+</div>
+
+<div>
+    <input type="search" placeholder="pesquisar..." />
+</div>
+
+<div class="painel-colecoes">
+    <div *ngFor="let i of items" class="painel-colecao">
+        <i class="fas fa-bars"></i>
+        <p>Notas</p>
+        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+    </div>
+</div>
+
+<div class="botao-novacolecao">
+    <i class="fas fa-plus"></i>
+    <p>Adicionar coleção</p>
+</div>
