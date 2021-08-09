@@ -11,9 +11,9 @@
 </div>
 
 <div class="painel-colecoes">
-    <div *ngFor="let i of items" class="painel-colecao">
+    <div *ngFor="let item of items" class="painel-colecao">
         <i class="fas fa-bars"></i>
-        <p>Notas</p>
+        <p>{{ item.nome }}</p>
         <a href="#"><i class="fas fa-ellipsis-h"></i></a>
     </div>
 </div>

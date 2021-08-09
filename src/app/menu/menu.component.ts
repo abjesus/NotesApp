@@ -12,7 +12,7 @@ export class MenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.items = [{},{},{},];
+    this.items = [{ nome: 'Notas' },{ nome: 'Tarefas' },{ nome: 'Lembretes' },];
   }
 
 }

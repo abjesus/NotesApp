@@ -20,6 +20,15 @@
     font-weight: bold;
 }
 
+.painel-usuario-info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.painel-usuario-info a:visited {
+    color: blue;
+}
+
 /* PESQUISA */
 
 input[type=search] {
@@ -27,6 +36,7 @@ input[type=search] {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 10px;
+    font-size: 1.2em;
 
     border-radius: var(--border-radius-componentes);
     border: 1px solid #eeee;
@@ -42,10 +52,12 @@ input[type=search] {
 
 .painel-colecao {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    opacity: .6;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: .9;
     color: grey;
 
     border-radius: var(--border-radius-componentes);

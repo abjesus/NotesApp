@@ -1,4 +1,54 @@
-.painel-nota {
-    border: 2px solid red;
-    background-color: red;
+/* CABECALHO */
+
+.nota-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1.1em;
+
+    border-bottom: 2px solid #eeee;
+}
+
+/* TITULO */
+
+.nota-titulo h1 {
+    margin-bottom: 0px;
+}
+
+.nota-titulo h4 {
+    margin-top: 10px;
+    font-weight: normal;
+    color: grey;
+}
+
+.nota-titulo h4 span {
+    color: black;
+    font-weight: bold;
+}
+
+/* BARRA DE FERRAMENTAS  */
+
+.nota-ferramentas {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    border-top: 2px solid #eeee;
+    border-bottom: 2px solid #eeee;
+}
+
+.nota-ferramentas a:visited {
+    color: black;
+}
+
+/* EDITOR */
+
+textarea {
+    margin: 20px 10px 10px 10px;
+    border: none;
+    height: 100%;
+    font-family: 'NunitoSans';
+    font-size: 1.1em;
 }

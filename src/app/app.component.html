@@ -15,6 +15,9 @@
     flex-direction: column;
     width: 15rem;
     padding: 10px;
+    background-color: whitesmoke;
+    border-top-left-radius: var(--border-radius-container);
+    border-bottom-left-radius: var(--border-radius-container);
   }
 
   app-notas {
@@ -26,10 +29,14 @@
   }
 
   app-nota {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    padding: 10px;
     background-color: white;
     border-top-right-radius: var(--border-radius-container);
     border-bottom-right-radius: var(--border-radius-container);
+    border-left: 2px solid #eeee;
   }
 
 </style>
